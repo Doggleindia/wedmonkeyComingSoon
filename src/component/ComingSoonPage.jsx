@@ -4,7 +4,7 @@ import wedlogo from './assests/image11.png'; // Ensure this path is correct.
 import Rectangle from './assests/Rectangle 453.png'
 import comingsoondesc from './assests/comingsoondesc.png'
 import circle from './circle.png'
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import {  FaInstagram,FaWhatsapp } from 'react-icons/fa';
 
 const ComingSoonPage = () => {
   return (

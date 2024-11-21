@@ -17,7 +17,7 @@ const ComingSoonPage = () => {
         <img className='w-[200px]'  src="https://s3-alpha-sig.figma.com/img/876c/f664/72d86b7984598da280ff368cc5ae4784?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j8E3Yqimi~AE~1BzFw1oxBHEIYoeHZbYlu1tqHDkHv6xIyT1bCudSCLLfL3IDrUgP2OXu5MTj9i8Cme-d2ekWxX-cG~mGBwdhp1lJ8V-28ke3kzQbjPgQhcK0QyLyVfMezltclhck53zuNFNAHNtUVYEN6Q0z-lMw0RoGUL3zLcY~Kq4XfqAjW6Ilnxq5o4rcoEoVIAObNTZiUmUr~LyvFYEzGSze~G7hxvMOUfckqlD9tagDrogj4iB2l-KhUwfOxoUOMFGhlAuD3HdVv5~6NIO1yaZYG2pANIGuSpl~ahl2CGvKJU3yMZagmRaEMRQUGM8rL2N5a2-DWRuH11QuQ__" alt="" />
         </div>
        
-       <div className="relative flex flex-col items-center">
+       <div className="relative flex mt-4 flex-col items-center">
         {/* Rectangle image positioned above the logo */}
         <img
           src={Rectangle}
@@ -43,7 +43,7 @@ const ComingSoonPage = () => {
       <a href="https://wa.me/+919509171789" 
       target="_blank"
       rel="noopener noreferrer"
-        className="w-[205px] h-[205px] rounded-full flex flex-col items-center justify-center text-center bg-cover bg-center mt-[-10%] relative ml-[38vw] z-30 ps-6"
+        className="w-[225px] h-[225px] rounded-full flex flex-col items-center justify-center text-center bg-cover bg-center mt-[-10%] relative ml-[38vw] z-30 "
         style={{ backgroundImage: `url(${circle})` }}
       >
         <p className="text-sm text-[#B16046] font-medium mb-2">

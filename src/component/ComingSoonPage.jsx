@@ -17,7 +17,7 @@ const ComingSoonPage = () => {
         <img className='w-[200px]'  src="https://s3-alpha-sig.figma.com/img/876c/f664/72d86b7984598da280ff368cc5ae4784?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j8E3Yqimi~AE~1BzFw1oxBHEIYoeHZbYlu1tqHDkHv6xIyT1bCudSCLLfL3IDrUgP2OXu5MTj9i8Cme-d2ekWxX-cG~mGBwdhp1lJ8V-28ke3kzQbjPgQhcK0QyLyVfMezltclhck53zuNFNAHNtUVYEN6Q0z-lMw0RoGUL3zLcY~Kq4XfqAjW6Ilnxq5o4rcoEoVIAObNTZiUmUr~LyvFYEzGSze~G7hxvMOUfckqlD9tagDrogj4iB2l-KhUwfOxoUOMFGhlAuD3HdVv5~6NIO1yaZYG2pANIGuSpl~ahl2CGvKJU3yMZagmRaEMRQUGM8rL2N5a2-DWRuH11QuQ__" alt="" />
         </div>
        
-       <div className="relative flex mt-4 flex-col items-center">
+       <div className="relative flex mt-12 flex-col items-center">
         {/* Rectangle image positioned above the logo */}
         <img
           src={Rectangle}
@@ -64,28 +64,28 @@ const ComingSoonPage = () => {
         <div className="flex space-x-3">
           {/* Instagram Icon */}
           <a
-            href="https://www.instagram.com/yourprofile"
+            href="https://www.instagram.com/wedmonkey_?igsh=NXJxYndmZnV2MGJm"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram className="text-3xl text-pink-500 hover:scale-110 transition transform duration-200 cursor-pointer" />
           </a>
           {/* Facebook Icon */}
-          <a
+          {/* <a
             href="https://www.facebook.com/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebook className="text-3xl text-blue-600 hover:scale-110 transition transform duration-200 cursor-pointer" />
-          </a>
+          </a> */}
           {/* Twitter Icon */}
-          <a
+          {/* <a
             href="https://www.twitter.com/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaTwitter className="text-3xl text-blue-400 hover:scale-110 transition transform duration-200 cursor-pointer" />
-          </a>
+          </a> */}
 
         </div>
 

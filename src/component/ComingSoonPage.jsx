@@ -38,7 +38,7 @@ const ComingSoonPage = () => {
               />
             </div>
 
-            <img src={wedlogo} alt="Logo" className="w-[1438px] h-full relative" />
+            <img src={wedlogo1} alt="Logo" className="scale-[1.3] ml-[15rem] opacity-20 relative" />
 
             <img src={comingsoondesc} className='mt-[-13%] h-[15vw] relative ml-[2vw] z-30' alt='description' />
 

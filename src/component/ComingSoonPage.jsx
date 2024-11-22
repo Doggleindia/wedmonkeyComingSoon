@@ -100,13 +100,13 @@ const ComingSoonPage = () => {
       </div>
       <div className="flex md:hidden overflow-hidden bg-[#EDE3D9] flex-col w-full h-screen relative items-center justify-center text-center p-4">
         {/* <img className="w-[150px] mb-4" src={wedlogo} alt="Logo" /> */}
-        <div className="w-[16rem] top-[5rem] overflow-hidden object-contain absolute h-[12rem]">
+        <div className="w-[16rem] top-[11rem] overflow-hidden object-contain absolute h-[12rem]">
           <img className='object-contain scale-[.7]' src={Rectangle} alt="" />
         </div>
         <div className="absolute w-full flex justify-center items-center h-full">
           <img src={wedlogo1} className='w-full absolute z-0 opacity-20 scale-[1.4]' alt="" />
           <img className='w-full absolute ml-[2rem] z-10 scale-[0.7]' src={comingsoondesc} alt="" />
-          <img src={flower1} className='scale-[.4] absolute z-30 ml-[15rem] top-[12rem]' alt="" />
+          <img src={flower1} className='scale-[.4] absolute z-30 ml-[15rem] top-[17rem]' alt="" />
         </div>
         <a href="https://wa.me/+919509171789"
           target="_blank"
@@ -162,7 +162,7 @@ const ComingSoonPage = () => {
 
         </div>
         <img className='w-full top-0 absolute' src={group1} alt="" />
-        <img className='w-full left-0 -bottom-5 absolute' src={group2} alt="" />
+        <img className='w-full left-0 -bottom-0 absolute' src={group2} alt="" />
       </div>
     </>
   );

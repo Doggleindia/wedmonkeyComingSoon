@@ -138,7 +138,7 @@ const ComingSoonPage = () => {
               <FaInstagram className="text-3xl text-pink-500 hover:scale-110 transition transform duration-200 cursor-pointer" />
             </a>
             {/* Facebook Icon */}
-            <a
+            {/* <a
             href="https://www.facebook.com/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
@@ -146,9 +146,9 @@ const ComingSoonPage = () => {
 
           >
             <FaFacebook className="text-3xl text-blue-600 hover:scale-110 transition transform duration-200 cursor-pointer" />
-          </a>
+          </a> */}
             {/* Twitter Icon */}
-            <a
+            {/* <a
             href="https://www.twitter.com/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
@@ -156,7 +156,7 @@ const ComingSoonPage = () => {
 
           >
             <FaTwitter className="text-3xl text-blue-400 hover:scale-110 transition transform duration-200 cursor-pointer" />
-          </a>
+          </a> */}
 
           </div>
 

@@ -19,28 +19,28 @@ const ComingSoonPage = () => {
       >
         {/* Responsive left image */}
         <img
-          className="absolute top-0 left-0 md:w-[45vw] 2xl:w-[35vw] h-auto object-contain"
+          className="absolute top-0 left-0 md:w-[38vw] 2xl:w-[35vw] h-auto object-contain"
           src={groupD1}
           alt=""
         />
 
         {/* Responsive right image */}
         <img
-          className="absolute top-0 right-0 md:w-[40vw] 2xl:w-[30vw] h-auto object-contain"
+          className="absolute top-0 right-0 md:w-[33vw] 2xl:w-[30vw] h-auto object-contain"
           src={groupD2}
           alt=""
         />
         <div >
-          <div className='flex justify-center items-center'>
+          <div className='flex 2xl:scale-[.9] md:scale-[.8] justify-center items-center'>
             <img className='w-[200px]' src="https://s3-alpha-sig.figma.com/img/876c/f664/72d86b7984598da280ff368cc5ae4784?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j8E3Yqimi~AE~1BzFw1oxBHEIYoeHZbYlu1tqHDkHv6xIyT1bCudSCLLfL3IDrUgP2OXu5MTj9i8Cme-d2ekWxX-cG~mGBwdhp1lJ8V-28ke3kzQbjPgQhcK0QyLyVfMezltclhck53zuNFNAHNtUVYEN6Q0z-lMw0RoGUL3zLcY~Kq4XfqAjW6Ilnxq5o4rcoEoVIAObNTZiUmUr~LyvFYEzGSze~G7hxvMOUfckqlD9tagDrogj4iB2l-KhUwfOxoUOMFGhlAuD3HdVv5~6NIO1yaZYG2pANIGuSpl~ahl2CGvKJU3yMZagmRaEMRQUGM8rL2N5a2-DWRuH11QuQ__" alt="" />
           </div>
 
-          <div className="relative flex md:mt-16 2xl:mt-10 flex-col items-center">
+          <div className="relative 2xl:scale-[.9] xl:scale-[.8] lg:scale-[.8] md:scale-[.7] flex md:mt-10 xl:mt-[vw] 2xl:mt-10 flex-col items-center">
             {/* Rectangle image positioned above the logo */}
             <img
               src={Rectangle}
               alt="Rectangle"
-              className="absolute md:mt-10 2xl:mr-[600px] md:mr-[40vw] md:w-[35%] 2xl:w-[35%] z-10 h-auto"
+              className="absolute  mr-[20vw] 2xl:mr-[600px] md:mr-[40vw] md:w-[35%] 2xl:w-[35%] z-10 h-auto"
             />
             {/* flower  Logo */}
             <div className="absolute z-[40] top-[13vw] md:left-[70%] 2xl:left-[70%]  mx-auto">
@@ -61,7 +61,7 @@ const ComingSoonPage = () => {
             <a href="https://wa.me/+919509171789"
               target="_blank"
               rel="noopener noreferrer"
-              className="2xl:w-[225px] md:w-[200px] md:h-[200px] 2xl:h-[225px] rounded-full flex flex-col items-center justify-center text-center bg-cover bg-center mt-[-10%] relative ml-[38vw] z-30 "
+              className="2xl:w-[225px] md:w-[200px] md:h-[200px] 2xl:scale-[.9] xl:scale-[.8] lg:scale-[.8] md:scale-[.7]  2xl:h-[225px] rounded-full flex flex-col items-center justify-center text-center bg-cover bg-center mt-[-10%] relative ml-[38vw] z-30 "
               style={{ backgroundImage: `url(${circle})` }}
             >
               <p className="text-sm text-[#B16046] font-medium mb-2">

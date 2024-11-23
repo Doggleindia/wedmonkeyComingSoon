@@ -116,7 +116,7 @@ const ComingSoonPage = () => {
         <div className="w-[60%] top-[20%] overflow-hidden object-contain absolute h-auto">
           <img className="object-contain scale-[.7]" src={Rectangle} alt="" />
         </div>
-        <div className="absolute w-full flex justify-center items-center h-full">
+        <div className="absolute w-full flex justify-center items-center h-screen">
           <img
             src={wedlogo1}
             className="w-full absolute z-0 opacity-20 scale-[1.4]"

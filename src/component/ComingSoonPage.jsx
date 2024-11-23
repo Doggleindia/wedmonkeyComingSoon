@@ -116,7 +116,7 @@ const ComingSoonPage = () => {
         <div className="w-[60%] top-[20%] overflow-hidden object-contain absolute h-auto">
           <img className="object-contain scale-[.7]" src={Rectangle} alt="" />
         </div>
-        <div className="absolute w-full flex justify-center items-center h-screen">
+        <div className="absolute w-full flex justify-center items-center h-full">
           <img
             src={wedlogo1}
             className="w-full absolute z-0 opacity-20 scale-[1.4]"
@@ -127,11 +127,11 @@ const ComingSoonPage = () => {
             src={comingsoondesc}
             alt=""
           />
-          <img
+          {/* <img
             src={flower1}
             className="scale-[.4] absolute z-30 ml-[15rem] top-[70%]"
             alt=""
-          />
+          /> */}
         </div>
         <a
           href="https://wa.me/+919509171789"

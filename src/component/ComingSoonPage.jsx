@@ -137,7 +137,7 @@ const ComingSoonPage = () => {
           href="https://wa.me/+919509171789"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-[35vw] h-[35vw] rounded-full flex flex-col items-center justify-center text-center bg-cover bg-center mt-[70%] relative backdrop:blur-lg z-30"
+          className="w-[35vw] h-[35vw] rounded-full flex flex-col items-center justify-center text-center bg-cover bg-center mt-[85%] relative backdrop:blur-lg z-30"
           style={{ backgroundImage: `url(${circle})` }}
         >
           <p className="text-[2vw] text-[#B16046] font-medium mb-2 text-center">
@@ -164,8 +164,8 @@ const ComingSoonPage = () => {
             </a>
           </div>
         </div>
-        <img className="w-full top-0 absolute" src={group1} alt="" />
-        <img className="w-full left-0 -bottom-0 absolute" src={group2} alt="" />
+        <img className="w-full object-contain top-0 absolute" src={group1} alt="" />
+        <img className="w-full object-contain left-0 -bottom-0 absolute" src={group2} alt="" />
       </div>
 
     </>

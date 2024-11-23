@@ -7,7 +7,7 @@ import group1 from '../assets/Group 1.png'
 import groupD1 from '../assets/Group D.png'
 import groupD2 from '../assets/Group D2.png'
 import group2 from '../assets/Group 2.png'
-import flower1 from '../assets/Flower 1.png'
+// import flower1 from '../assets/Flower 1.png'
 import { FaInstagram, FaWhatsapp, FaTwitter, FaFacebook } from 'react-icons/fa';
 
 const ComingSoonPage = () => {

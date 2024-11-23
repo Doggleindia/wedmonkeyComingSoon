@@ -1,6 +1,4 @@
-import React from 'react';
-import comingsoonbg from './comigsoonbg.svg'; // Ensure this path is correct.
-import wedlogo from './assests/image11.png'; // Ensure this path is correct.
+import React from 'react'; // Ensure this path is correct.
 import wedlogo1 from '../assets/WEDMONKEY_LOGO-removebg-preview.png'; // Ensure this path is correct.
 import Rectangle from './assests/Rectangle 453.png'
 import comingsoondesc from './assests/comingsoondesc.png'
